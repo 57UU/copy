@@ -1,3 +1,4 @@
+```verilog 
 module LED_ctrl( 
     input [15:0] sw, 
     input clk200P, 
@@ -44,3 +45,5 @@ module LED_ctrl(
   assign led_clr = reset; 
   assign led_pen = 1'b1; 
 endmodule
+
+```
